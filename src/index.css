@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x:auto
+}
+.content{
+ display: grid;
+ width: 100vw;
+ height: 100vh;
+ max-width:100%;
+ grid-template-columns: 65% 35%;
+ /* background-color: aqua; */
+ 
+
+}
+.faq-pagination-area{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+.pagination-area{
+   
+    max-width:100%;
+    background-color: green;
+}
+.login-area{
+    /* background-color: red; */
+}

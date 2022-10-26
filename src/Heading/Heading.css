@@ -1,0 +1,37 @@
+.header{
+    position: relative;
+width: 1728px;
+height: 121px;
+left: 0px;
+top: 0px;
+display: flex;
+background: linear-gradient(180deg, #FF9900 0%, #FFFFFF 48.44%, #1FCE03 100%);
+max-width: 100%;
+}
+
+.area1{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.emblem{
+    /* position: absolute; */
+width: 41px;
+height: 65.99px;
+left: 31px;
+top: 27px;
+/* background-image: url("https://w7.pngwing.com/pngs/141/687/png-transparent-lion-capital-of-ashoka-sarnath-state-emblem-of-india-national-symbols-of-india-government-of-india-symbol-miscellaneous-mammal-text.png"); */
+width: 50px;
+height: 50px;
+
+
+}
+.Heading{
+    /* position: absolute; */
+width: 403px;
+height: 32px;
+left: 84px;
+top: 44px;
+color: #000000;
+}
