@@ -19,15 +19,73 @@ body{
 
 }
 .faq-pagination-area{
-    background-color: blueviolet;
+    
     display: grid;
     grid-template-rows: 60% 40%;
 }
 .pagination-area{
    
     max-width:100%;
-    background-color: green;
+   
 }
 .login-area{
     /* background-color: red; */
+}
+.other-button-area{
+    display: flex;
+   width: 60%;
+   justify-content: space-between;
+   margin-top: 40px;
+   margin:auto ;
+   padding: 15px;
+}
+
+.other-button-area>button{
+border: none;
+background-color: cadetblue;
+padding: 8px;
+text-align: center;
+border-radius: 30px;
+cursor: pointer;
+font-weight: 600;
+}
+
+.faq-area{
+    /* margin: auto; */
+    /* background-color: rebeccapurple; */
+    position: relative;
+
+}
+
+.faq-area>h1{
+    position:absolute;
+    left: 5%;
+    top: 5%;
+    font-size: 50px;
+    font-weight: 400;
+    
+}
+.line{
+    position:absolute;
+    top: 28%;
+    left: 5%;
+    height: 2px;
+    width: 80%;
+    background-color: black;
+}
+
+.faq-content
+{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.faq-content>p{
+    width: 80%;
+}
+
+.system-works{
+    font-size: 35px;
+    font-weight: 800;
 }

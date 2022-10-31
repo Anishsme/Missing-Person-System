@@ -11,6 +11,8 @@ top: 0px;
 display: flex;
 background: linear-gradient(180deg, #FF9900 0%, #FFFFFF 48.44%, #1FCE03 100%);
 max-width: 100%;
+justify-content: space-between;
+align-items: baseline;
 }
 
 .area1{
@@ -38,4 +40,17 @@ height: 32px;
 left: 84px;
 top: 44px;
 color: #000000;
+}
+
+.area2{
+    font-size:40px;
+    font-weight:900;
+width: 250px;
+height: 50px;
+
+/* Below is to center a postition absolute */
+
+left: 0;
+right: 0;
+text-align: center;
 }

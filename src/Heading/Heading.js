@@ -10,7 +10,7 @@ function Header(){
         </div>
         {/* E-finder */}
         <div className="area2">
-
+            e-Finder
         </div>
     </div>
     </>)
