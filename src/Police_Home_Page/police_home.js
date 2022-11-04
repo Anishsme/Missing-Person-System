@@ -24,7 +24,13 @@ function PoliceHome(){
                 <div><button>View All</button></div>
             </div>
             <div className="request-other-dept">
-
+            <br />
+                <h3 >Investigation from other departments from Other Departments</h3>
+                <div className="clue">
+                    <h3>Case:101AKA001</h3>
+                    <h4>Report: investigation at ab block,person found to live in   room 503</h4>
+                </div>
+                <div><button>View All</button></div>
             </div>
         </div>
     </div>
