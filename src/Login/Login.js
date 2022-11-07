@@ -16,11 +16,11 @@ function Login(){
             </div>
             <div className="password">
             <h3>Password</h3>
-                <input type="password" name="" id="" />
+                <input type="password" name="password" id="password" />
             </div>
             <div className="email">
             <h3>Email-ID/Phone number</h3>
-                <input type="email" name="" id="" />
+                <input type="email" name="email" id="email" />
             </div>
             <br />
             <br />

@@ -41,19 +41,19 @@ html,body{
     align-items: center;
     cursor: pointer;
 }
-.content{
+.accordian_content{
     max-height: 0;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
 
-.content.show{
+.accordian_content.show{
     height: auto;
     max-height: 1000000px;
     transition: all 0.5s cubic-bezier(0,1,0,1);
 }
 
-.content.show>button{
+.accordian_content.show>button{
     padding: 8px;
     margin-top: 10px;
     width: 100px;
@@ -71,6 +71,10 @@ html,body{
     background-color: green;
     border-radius: 30px;
     font-weight: 700;
+}
+
+.content>button:hover{
+    cursor: pointer;
 }
 
 .clue{

@@ -8,7 +8,7 @@
 body{
     overflow-x:auto
 }
-.content{
+.police_content{
  display: grid;
  width: 100vw;
  height: 100vh;
@@ -18,19 +18,16 @@ body{
 
 }
 
-.faq-pagination-area{
+.police_faq-pagination-area{
     display: grid;
     grid-template-rows: 30% 70%;
     position: relative;
 }
 
-.pagination-area{
+.police_pagination-area{
    
     max-width:100%;
    
-}
-.login-area{
-    /* background-color: red; */
 }
 
 .part-1{

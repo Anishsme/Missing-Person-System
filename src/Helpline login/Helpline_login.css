@@ -8,7 +8,7 @@
 body{
     overflow-x:auto
 }
-.content{
+.help_content{
  display: grid;
  width: 100vw;
  height: 100vh;
@@ -18,28 +18,26 @@ body{
 
 }
 
-.faq-pagination-area{
+.help_faq-pagination-area{
     display: grid;
     grid-template-rows: 30% 70%;
     position: relative;
 }
 
-.pagination-area{
+.help_pagination-area{
    
     max-width:100%;
    
 }
-.login-area{
-    /* background-color: red; */
-}
 
-.part-1{
+
+.help_part-1{
     position: absolute;
     top: 5%;
     left: 5%;
 }
 
-.part-2{
+.help_part-2{
     position: absolute;
     top: 32%;
     left: 5%;

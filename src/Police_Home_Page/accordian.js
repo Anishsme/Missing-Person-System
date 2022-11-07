@@ -1,7 +1,10 @@
-import data from "./data"
 import "./accordian.css"
 import {useState} from 'react'
-function Accordian(){
+// import Modify from "../Modify_form/modify";
+function Accordian({visible,data}){
+  
+    console.log(data)
+    console.log(visible)
     const [selected,setSelected]=useState(null);
     const toggle=(i)=>{
         if(selected===i){
@@ -20,12 +23,13 @@ function Accordian(){
                 <h1>{item.Case_ID}</h1>
                 <span>{selected==i?'-':'+'}</span>
             </div>
-            <div className={selected==i?"content show":"content"}>
+            <div className={selected==i?"accordian_content show":"accordian_content"}>
                 <h3>Status:-</h3>{item.Status}
                 <h3>Clues:-</h3>{item.Clues}
                 <h3>Details:-</h3>{item.Details}
                 <br />
-                <button>Modify</button>
+                <button onClick={visible} className="mod_button">Modify</button>
+               
             </div>
              </div>)
         })}

@@ -2,6 +2,7 @@ import Header from "./Heading/Heading";
 import "./index.css";
 import Login from "./Login/Login"
 import Image_Slider from "./Image_Slider/image_slider";
+import {Link,BrowserRouter as Router} from 'react-router-dom'
 function App() {
   return (<>
   <Header/>
@@ -9,8 +10,8 @@ function App() {
     <br />
   <h3>&nbsp; &nbsp;Ham aapke khoe hue priyajanon ko kojane something something</h3>
   </div>
-  
-    <div className="content">
+
+  <div className="content">
       {/* Part 1 */}
       <div className="faq-pagination-area">
         <div className="pagination-area">
@@ -19,8 +20,8 @@ function App() {
           <div className="other-button-area">
             <button>Collaborating NGO(s)</button>
             <button>Collaboration Opportunity</button>
-            <button>Helpline Login</button>
-            <button>Official Login</button>
+            <button><Link to="/helpline">Helpline Login</Link></button>
+            <button><Link to="/policeLogin">Official Login</Link></button>
           </div>
         </div>
         <div className="faq-area">
@@ -42,6 +43,9 @@ function App() {
       <Login></Login>
       </div>
     </div>
+
+
+   
     
   </> );
 }

@@ -1,0 +1,50 @@
+.form-container{
+    /* visibility: hidden; */
+    width:500px;
+    height:500px ;
+    position: absolute;
+   top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color:#999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+form>div{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sub{
+    margin: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: blue;
+    cursor: pointer;
+}

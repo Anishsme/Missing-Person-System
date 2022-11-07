@@ -10,9 +10,9 @@ function PoliceLogin() {
   {/* <h3>&nbsp; &nbsp;Ham aapke khoe hue priyajanon ko kojane something something</h3> */}
   </div>
   
-    <div className="content">
+    <div className="police_content">
       {/* Part 1 */}
-      <div className="faq-pagination-area">
+      <div className="police_faq-pagination-area">
         <div className="part-1">
           <div className="head" style={{fontWeight:'400',fontSize:'60px'}}>
           NGOs,Police and Other Departments Login

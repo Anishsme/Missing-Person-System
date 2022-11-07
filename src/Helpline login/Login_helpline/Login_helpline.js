@@ -2,7 +2,7 @@ import "./Login_helpline.css";
 
 function Login(){
     return(<>
-    <div className="login-form">
+    <div className="help-login-form">
         <div>
         <h1 className="label">
         e-Finder

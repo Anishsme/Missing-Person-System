@@ -14,6 +14,7 @@ body{
  height: 100vh;
  max-width:100%;
  grid-template-columns: 65% 35%;
+ /* visibility: visible; */
  /* background-color: aqua; */
  
 
@@ -28,9 +29,7 @@ body{
     max-width:100%;
    
 }
-.login-area{
-    /* background-color: red; */
-}
+
 .other-button-area{
     display: flex;
    width: 60%;
@@ -60,7 +59,7 @@ font-weight: 600;
 .faq-area>h1{
     position:absolute;
     left: 5%;
-    top: 5%;
+    top: 10%;
     font-size: 50px;
     font-weight: 400;
     

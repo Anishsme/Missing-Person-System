@@ -10,18 +10,18 @@ function Helpline() {
   <h3>&nbsp; &nbsp;Ham aapke khoe hue priyajanon ko kojane something something</h3>
   </div>
   
-    <div className="content">
+    <div className="help_content">
       {/* Part 1 */}
-      <div className="faq-pagination-area">
-        <div className="part-1">
+      <div className="help_faq-pagination-area">
+        <div className="help_part-1">
           <div className="head" style={{fontWeight:'400',fontSize:'60px'}}>
             Helpline Login
           </div>
           <br />
           <p style={{fontSize:'30px'}}>the portal for HelpLine Staff to login</p>
         </div>
-        <div className="part-2">
-          <div className="content-container">
+        <div className="help_part-2">
+          <div className="help_content-container">
             <p>IN CASE OF ISSUES DROP A MAIL TO efinder.helpdesk@efinder.in or Call 1800-1800-1800</p>
           </div>
         </div>
